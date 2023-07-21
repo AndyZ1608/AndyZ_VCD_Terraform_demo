@@ -9,7 +9,7 @@ provider "vcd" {
 
 #Org vApp - Servers
  resource "vcd_vapp" "vapp" {
-   name = "Servers"
+   name = "DEV"
    org = "ducnn30"
    vdc = "VPC-ducnn30"
  }
